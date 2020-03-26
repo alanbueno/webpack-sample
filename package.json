@@ -6,7 +6,6 @@
     "dev": "webpack-dev-server --progress --open --config webpack/config.dev.js",
     "build": "yarn clear:build && webpack --config webpack/config.prod.js",
     "build:ts": "tsc",
-    "postinstall": "./bin/downloadPdfs.sh",
     "test": "yarn build && yarn test:unit && yarn test:integration",
     "test:integration": "PORT=8000 server-test :8000 cypress:run",
     "clear:build": "rm -rf ./build",
