@@ -24,7 +24,7 @@ const defaultConfig: AppConfig = {
     },
   },
   sentry: {
-    dsn: process.env.REACT_APP_SENTRY_DSN_KEY || '',
+    dsn: process.env.SENTRY_DSN_KEY || '',
   },
 }
 
