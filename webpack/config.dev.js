@@ -18,7 +18,7 @@ module.exports = merge(webpackCommons, {
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: '[DEV] Webpack Sample',
+      title: '[DEV] Webpack-Sample',
       template: 'src/index.html',
     }),
   ],

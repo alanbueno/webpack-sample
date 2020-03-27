@@ -29,15 +29,16 @@ export const configMerge: ConfigMerge = (config, envConfig) => {
   return config as AppConfig
 }
 
-// export default ({ options }, loaderContext) => {
-//   console.log('heeeere', options)
-
-//   return { code: 'module.exports = ' + configMerge(defaultConfig, options.envConfig) }
-// }
-
 export const config = configMerge(
   defaultConfig,
   // eslint-disable-next-line @typescript-eslint/no-var-requires, security/detect-non-literal-require
   require(`./${process.env.NODE_ENV || 'development'}.ts`)
 )
 export default config
+
+// test for dynamic configs with webpack resolving the file to bundle
+// export default ({ options }, loaderContext) => {
+//   console.log('heeeere', options)
+
+//   return { code: 'module.exports = ' + configMerge(defaultConfig, options.envConfig) }
+// }

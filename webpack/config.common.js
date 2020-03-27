@@ -4,7 +4,7 @@ const PATHS = {
   entry: path.resolve(__dirname, '../build'),
   src: path.resolve(__dirname, '../src'),
   public: path.resolve(__dirname, '../src/assets'),
-  envConfig: path.resolve(__dirname, `../src/config/development.ts`),
+  // envConfig: path.resolve(__dirname, `../src/config/development.ts`),
 }
 
 module.exports = {
@@ -12,9 +12,8 @@ module.exports = {
   entry: PATHS.src,
 
   output: {
-    path: PATHS.entry,
     filename: '[name].js',
-    publicPath: PATHS.public,
+    path: PATHS.entry,
   },
 
   resolve: {
