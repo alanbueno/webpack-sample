@@ -71,7 +71,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^3.0.0",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-standard": "^5.0.0",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.0.2",
     "marked": "^0.8.2",
