@@ -83,7 +83,7 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3",
     "webpack-me": "^1.2.2",
-    "webpack-merge": "^4.2.2"
+    "webpack-merge": "^5.7.0"
   },
   "browserslist": {
     "production": [
