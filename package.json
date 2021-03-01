@@ -74,7 +74,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.0.2",
-    "marked": "^0.8.2",
+    "marked": "^2.0.1",
     "prettier": "^2.0.2",
     "source-map-loader": "^0.2.4",
     "style-loader": "^1.1.3",
